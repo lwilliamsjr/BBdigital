@@ -1,0 +1,299 @@
+html, body {
+				height: 100%;
+				width: 100%;
+				padding: 0;
+				margin: 0;
+
+			}
+			body {
+				background: #f9f9f3;
+			}
+			body  {
+				font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+				font-size: 14px;
+				
+				line-height: 15px;
+			}
+
+			.utility_bar {
+
+				width: 44px;
+				height: 218px;
+				background-color: red;
+				position: fixed;
+				right:0;
+				top: 187px;
+				z-index: 90;
+				background-color: #000000;
+				background-color: rgba(0, 0 ,0 ,.6);
+
+				 
+
+	}
+
+	.utility_bar li {
+		list-style-type: none;
+	}
+
+
+
+
+
+
+			}
+			.section1, .section1 p {
+				background-color: #FFCB05;
+				margin: 0 auto;
+				padding: 25px 0 20px 0;
+				font-style: bold;
+				text-align: center;
+				width: 100%
+				}
+			
+
+			.section1 h2{
+					font-size: 40px;
+					padding: 10px 0 4px 0;
+					margin: 0;
+
+			}
+			.section1sub {
+				padding-top: 40px;
+				padding-left: 220px;
+
+
+			
+
+			}
+			.icons {
+				margin-top: 10px;
+				text-align: center;
+				width: 100%;
+
+				/*position: relative;*/
+
+			}
+			.pencil {
+				float: left;
+				margin-right: 25px;
+				margin-left: 160px;
+				width:20em;
+				/*position: absolute;
+				left: 200px;*/
+			}
+
+			.pencil p {
+				margin-top: 20px;
+
+			}
+			.camera{
+				display: inline-block;
+				width:20em;
+
+				/*position: absolute;
+				left: 520px;*/
+			}
+			.playbutton {
+				float: right;
+				margin-left: 15px;
+				margin-right: 100px;
+				width:20em;
+				/*position: absolute;
+				left: 850px;*/
+				
+			
+			}
+
+			.playbutton p{
+				margin-top:  3px;
+			}
+
+			
+			/* About me div with mission statement */
+
+
+			#mission {
+				background-color: black;
+				display: block;
+				height: 280px;
+				padding: 2px 0 20px 0;
+				font-style: bold;
+
+	
+			}
+			#mission p {
+				width: 26%;
+				margin-left: 40px;
+				color: #FFCB05;
+				font-size: 20px;
+				line-height: 30px;
+				padding:0;
+				float:left;
+				
+			}
+			#mission em {
+			color: white;
+
+			}
+			#mission p span {
+				font-style: italic;
+				color:white;
+
+			}
+				.mission2 p{
+					float: left;
+					width: 37%;
+
+			}
+				.mission3 p {
+					
+					width: 35%;
+			}
+				#mission2 img {
+					clear: left;
+					display:block;
+					padding:0;
+					margin:0 0;
+					visibility: hidden;		
+			}
+
+
+				/*Client icons*/
+			
+			}
+			.clientIcons h2 {
+					font-size: 60px;
+					padding: 10px 0 4px 0;
+					text-align: center;
+			}
+			.clientIcons  {
+				width: 100%;
+				display: block;
+
+
+			}
+			.icon1 {
+				float: left; 
+				width: 15em;
+				margin-right: 200px;
+				
+			}
+			.icon2 {
+				float: left; 
+				width: 15em;
+				margin-right: 140px;
+				margin-top: 25px;
+			}
+			.icon3 {
+				float: left; 
+				width: 15em;
+				margin-right: 200px;
+				margin-top: 22px;
+			}
+			.icon4 {
+				float: left; 
+				width: 15em;
+				margin-right: 100px;
+				margin-left: 50px;
+				/*margin-left: 210px;*/
+				/*margin-top: 25px;*/
+			}
+
+			.icon5 {
+				float: left; 
+				width: 15em;
+				margin-right: 70px;
+				/*margin-left: ;*/
+			}
+			.icon6{
+				float: left; 
+				width: 15em;
+				margin-right: ;
+				/*margin-left: ;*/
+				/*margin-top: ;*/
+			}
+			.icon7 {
+				float: left; 
+				width: 15em;
+				/*margin-left:;*/
+				/*margin-top: ;*/
+			}
+			.icon8 {
+				float: left; 
+				width: 15em;
+				margin-left: -50px;
+				/*margin-left: ;*/
+				/*margin-top: ;*/
+			}
+			.icon9 {
+				float: left; 
+				width: 15em;
+				margin-left: 200px;
+				/*margin-left: ;*/
+			}
+			.icon10 {
+				float: left; 
+				width: 15em;
+				margin-left: 20px;
+				/*margin-left: ;*/
+				/*margin-top: ;*/
+			}
+			.icon11 {
+				float: left; 
+				width: 15em;
+				margin-left: 30px;
+				/*margin-left:;*/
+				/*margin-top: ;*/
+			}
+			.icon12 {
+				float: left; 
+				width: 15em;
+				/*margin-left: ;*/
+				/*margin-top: ;*/
+			
+			}
+			/* Blog links */
+			.blog_links h2{
+			clear: both;
+			font-size: 34px;
+			text-align: center;
+
+			}
+
+			.blog_links {
+			    background-color: #FFCB05;
+				display: block;
+				height: 200px;
+				padding: 2px 0 20px 0;
+				font-style: bold;
+				clear: both;
+				
+			}
+			.blog_links p {
+				width: 42%;
+				margin-left: 40px;
+				color: black;
+				font-size: 20px;
+				line-height: 30px;
+				padding: 0;
+				float:left;
+				text-indent: center;
+
+				
+
+			}
+			.blog_links p span {
+				border-bottom: 2px solid white;
+				color:white;
+
+			}
+			.blog_linksPara p{
+
+				font-size: 24px;
+
+			}
+			.blogpic {
+				float: left;
+
+
+			}
